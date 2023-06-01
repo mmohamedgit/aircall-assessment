@@ -1,0 +1,39 @@
+.toggle span {
+  padding: 0 10px;
+}
+
+.toggle button {
+  transition: 0.6s;
+}
+.toggle button:hover {
+  color: rgb(168, 192, 82);
+  --fa-animation-duration: 0.5s;
+}
+
+.toggle button .icon:hover {
+  animation: pulse 2000ms;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scaleX(1) scaleY(1);
+  }
+  15% {
+    transform: scaleX(1.25) scaleY(1.25);
+  }
+  30% {
+    transform: scaleX(1) scaleY(1);
+  }
+  45% {
+    transform: scaleX(1.25) scaleY(1.25);
+  }
+  60% {
+    transform: scaleX(1) scaleY(1);
+  }
+  75% {
+    transform: scaleX(1.25) scaleY(1.25);
+  }
+  100% {
+    transform: scaleX(1) scaleY(1);
+  }
+}

@@ -1,0 +1,57 @@
+.app {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.app .container {
+  width: 376px;
+  height: 666px;
+  z-index: 100;
+  overflow-y: scroll;
+  /* background: rgb(244, 223, 223); */
+
+  background: rgb(34, 27, 27);
+
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.9);
+}
+
+.app .container-view {
+  padding: 20px;
+}
+
+.app .toggle-button {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  border: 1px solid rgb(149, 136, 136);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background: lightgreen;
+}
+
+.app .spinner {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 175px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app .spinner span {
+  margin-top: 10px;
+  color: aliceblue;
+}
+
+.app main {
+  border-top: 1px solid rgb(226, 175, 175);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}

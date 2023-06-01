@@ -1,0 +1,13 @@
+.feed {
+  margin-top: 10px;
+}
+
+.feed .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feed span {
+  padding: 0 10px;
+}
